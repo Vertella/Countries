@@ -1,0 +1,82 @@
+
+body{
+    background-color: #242F6E;
+    color: white;
+    margin: 0;
+    font-size: 18px;
+}
+.header{ 
+    margin-left: 15%;
+    color: rgb(18, 18, 18);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+    text-shadow:2px 2px black;
+}
+.header h1 {
+    margin-left: 10%;
+}
+
+.lines{
+    border:2px solid black;
+    border-bottom: 0px;
+}
+
+.title{ 
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.sidenav{
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #20207e;
+    overflow-x: hidden;
+    padding-top: 15%;
+}
+
+.sidenav a {
+    color: beige;
+    padding: 20px 50px 20px 50px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 15%;
+}
+
+.content {
+    margin-left: 10%;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}        
+}
+
+footer {
+    background-color: #111;
+    height: 200px;
+    width: 85%;
+    position: fixed;
+    bottom: 0;
+    margin-left: 15%;
+}
+
+footer h3 {
+    text-align: center;
+    padding-top: 3.5%;
+}
